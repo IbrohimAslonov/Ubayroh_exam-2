@@ -1,0 +1,1451 @@
+// .main__bottom {
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     flex-direction: column;
+//     margin-top: 128px;
+//     margin-bottom: 128px;
+//     gap: 64px;
+
+//     h2 {
+//         @include mixin.title-2;
+//     }
+
+//     .cards__row {
+//         display: grid;
+//         grid-template-columns: repeat(4, 1fr);
+//         grid-column-gap: 24px;
+
+//         .card {
+//             background: #FFF5EB;
+//             padding: 24px 26px 80px 42px;
+//             gap: 60px;
+
+//             .date {
+//                 display: flex;
+//                 align-items: end;
+//                 justify-content: center;
+//                 flex-direction: column;
+
+//                 h5 {
+//                     @include mixin.title-5;
+//                 }
+
+//                 h6 {
+//                     @include mixin.title-6;
+//                 }
+//             }
+
+//             .top__left__main {
+//                 display: flex;
+//                 align-items: start;
+//                 flex-direction: column;
+
+//                 p {
+//                     font-weight: 700;
+//                     font-size: 12px;
+//                     line-height: 14px;
+//                     letter-spacing: 0.08em;
+//                     text-transform: uppercase;
+//                     background: linear-gradient(109.61deg, #A54E2B -53.83%, #DC9853 62.61%);
+//                     -webkit-background-clip: text;
+//                     -webkit-text-fill-color: transparent;
+//                     background-clip: text;
+//                     text-fill-color: transparent;
+//                 }
+
+//                 h5 {
+//                     margin-top: 16px;
+//                     margin-bottom: 16px;
+//                     max-width: 210px;
+//                     @include mixin.title-5;
+//                 }
+
+//                 h6 {
+//                     max-width: 210px;
+//                     margin-bottom: 32px;
+//                     @include mixin.title-6;
+//                     font-weight: 400;
+//                     text-transform: none;
+//                     opacity: 0.78;
+//                 }
+
+//                 .schedules {
+//                     display: flex;
+//                     align-items: start;
+//                     flex-direction: column;
+//                     gap: 16px;
+
+//                     .schedule {
+//                         display: flex;
+
+//                         &__right {
+//                             margin-left: 16px;
+//                             display: flex;
+//                             align-items: start;
+//                             flex-direction: column;
+
+//                             h6 {
+//                                 margin-bottom: 5px;
+//                                 @include mixin.title-6;
+//                                 font-weight: 400;
+//                                 text-transform: none;
+//                                 opacity: 1;
+//                             }
+//                         }
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }
+
+///////////// home old style /////////////
+/// #home{
+// padding-top: 100px;
+// max-width: 100%;
+// background: url(../../assets/images/home/women.png) no-repeat;
+// background-size: cover;
+// }
+
+// .home {
+// padding-top: 60px;
+// padding-bottom: 80px;
+
+// &__title6 {
+//     font-family: 'Roboto Condensed';
+//     margin-bottom: 16px;
+//     font-style: normal;
+//     font-weight: 700;
+//     font-size: 16px;
+//     line-height: 19px;
+//     text-transform: uppercase;
+//     color: #FFFFFF;
+// }
+
+// &__title1 {
+//     max-width: 592px;
+//     font-style: normal;
+//     margin-bottom: 32px;
+//     font-weight: 700;
+//     font-size: 64px;
+//     line-height: 82px;
+//     letter-spacing: -0.01em;
+//     text-transform: uppercase;
+//     color: #FFFFFF;
+// }
+
+// &__btn {
+//     @include mixin.primary-btn;
+//     margin-bottom: 64px;
+// }
+
+// &__text {
+//     max-width: 308px;
+//     font-family: 'Roboto Condensed';
+//     font-style: normal;
+//     font-weight: 400;
+//     font-size: 16px;
+//     line-height: 24px;
+//     color: #FFFFFF;
+// }
+// }
+// .title{
+// padding-top: 128px;
+// padding-bottom: 64px;
+// text-align: center;
+// h6{
+//    @include mixin.title-6;
+// }
+// h2{
+//     @include mixin.title-2;
+// }
+// }
+// .cards{
+//     padding-bottom: 128px;
+//     display: grid;
+//     grid-template-columns: repeat(3, 1fr);
+//     column-gap: 24px;
+
+//     .card{
+//         padding: 80px;
+//         background: #FFF5EB; 
+//         .card__item{
+//             h4{
+//                 padding-top: 24px;
+//                 @include mixin.title-4;
+//             }
+//             p{
+//                 font-weight: 400;
+//                 font-size: 16px;
+//                 line-height: 24px;
+//                 color: #161722;
+//             }
+//         }    
+//     }
+// }
+// .love__title{
+// text-align: center;
+// h6{
+//     padding-bottom: 35px;
+//     @include mixin.title-6;
+//  }
+//  h2{
+//      @include mixin.title-2;
+//  }
+//  .text{
+//     padding-top: 32px;
+//     padding-bottom: 56px;
+//     p{
+//         font-weight: 400;
+//         font-size: 16px;
+//         line-height: 24px;
+//         color: #161722; 
+//      }
+//  }
+//  button{
+//     @include mixin.primary-btn;
+//  }
+// }
+// .love__img{
+// padding-top: 8px;
+// display: flex;
+// justify-content: center;
+// gap: 24px;
+// img{
+//     max-width: 100%;
+// }
+// & .img2{
+//     padding-top: 72px;
+// }
+// }
+// .love__footer{
+// padding-top: 64px;
+// text-align: center;
+// h6{
+//     @include mixin.title-6;  
+// }
+// h2{
+//     @include mixin.title-2;
+// }
+// p{
+//     font-weight: 400;
+//     font-size: 16px;
+//     line-height: 24px;
+//     color: #161722; 
+//  }
+//  &__end {
+//     padding-bottom: 128px;
+//     font-weight: 400;
+//     font-size: 14px;
+//     line-height: 16px;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     color: #161722;
+//  }
+// }
+// #benefit{
+// background: #F5F2F0;
+// .benefits{
+//     h6{
+//         padding-top: 128px;
+//         text-align: center;
+//         @include mixin.title-6;  
+//     }
+//     h2{
+//         text-align: center;
+//         @include mixin.title-2;
+//     }
+//    &__card{
+//     padding-top: 64px;
+//     display: grid;
+//     grid-template-columns: repeat(4 , 1fr);
+//     column-gap: 24px;
+//    }
+// }
+// }
+// #join{
+// .join__title{
+//     padding-bottom: 64px;
+//     h6{
+//         padding-top: 128px;
+//         text-align: center;
+//         @include mixin.title-6;  
+//     }
+//     h2{
+//         text-align: center;
+//         @include mixin.title-2;
+//     } 
+// }
+// .main__top__card{
+//     display: flex;
+//     height: 539px;
+//     margin-bottom: 48px;
+//     &__left{
+//         background: #FFF5EB;
+//         padding: 32px 32px 61px 89px;
+//         .date{
+//             display: flex;
+//             align-items: end;
+//             justify-content: center;
+//             flex-direction: column;
+//             margin-left: 33px;
+//             h5{
+//                 @include mixin.title-5;
+//             }
+//             h6{
+//                 @include mixin.title-6;
+//             }
+//         }
+//         .top__left__main{
+//             display: flex;
+//             align-items: start;
+//             flex-direction: column;
+//             p{
+//                 font-weight: 700;
+//                 font-size: 12px;
+//                 line-height: 14px;
+//                 letter-spacing: 0.08em;
+//                 text-transform: uppercase;
+//                 background: linear-gradient(109.61deg, #A54E2B -53.83%, #DC9853 62.61%);
+//                 -webkit-background-clip: text;
+//                 -webkit-text-fill-color: transparent;
+//                 background-clip: text;
+//                 -webkit-text-fill-color: transparent;
+//             }
+//             h5{
+//                 max-width: 210px;
+//                 margin-top: 16px;
+//                 margin-bottom: 16px;
+//                 max-width: 210px;
+//                 @include mixin.title-5;
+//             }
+//             h6{
+//                 width: 256px;
+//                 margin-bottom: 32px;
+//                 max-width: 320px;
+//                 @include mixin.title-6;
+//                 font-weight: 400;
+//                 text-transform: none;
+//                 opacity: 0.78;
+//             }
+//             .schedules{
+//                 display: flex;
+//                 align-items: start;
+//                 flex-direction: column;
+//                 gap: 16px;
+//                 .schedule{
+//                     display: flex;
+//                     &__right{
+//                         margin-left: 16px;
+//                         display: flex;
+//                         align-items: start;
+//                         flex-direction: column;
+//                         h6{
+//                             margin-bottom: 5px;
+//                             @include mixin.title-6;
+//                             font-weight: 400;
+//                             text-transform: none;
+//                             opacity: 1;
+//                         } 
+//                     }
+//                 }
+//             }
+//             .register{
+//                 margin-top: 32px;
+//                 @include mixin.secondary-btn;
+//             }
+//         }
+//     }
+//     &__right{
+//         width: 100%;
+//         background: url('../../assets/images/home/a-man-and-woman-wearing-angel-costumes-8513040.png');
+//         background-repeat: no-repeat;
+//         background-size: cover;
+//     }
+// }
+// .join__footer{
+//     display: flex;
+//     gap: 10px;
+//     align-items: center;
+//     justify-content: end;
+//     a{
+//       padding-top: 3px;
+//     }
+// }
+// }
+// #serve{
+// padding-top: 100px;
+// padding-bottom: 128px;
+// max-width: 100%;
+// background: url(../../assets/images/home/background.png) no-repeat;
+// background-size: cover;
+
+
+// .serve__cards{
+//     margin-left: 250px;
+//     max-width: 768px;
+//     background: #FFFFFF;
+//     .serve__card{
+//         padding: 72px 48px;
+//         display: flex;
+//         gap: 117px;
+//         align-items: center;
+//         &__content{
+//             h2{
+//                 @include mixin.title-2;
+//             }   
+//             p{
+//                 padding-bottom: 16px;
+//                 font-weight: 400;
+//                 font-size: 16px;
+//                 line-height: 24px;
+//                 color: #161722; 
+//             }
+//             button{
+//                 @include mixin.primary-btn;
+//             }
+//         }
+//     }
+// }
+// }
+// .share{
+// &__title{
+//     h6{
+//         padding-top: 128px;
+//         text-align: center;
+//         @include mixin.title-6;  
+//     }
+//     h2{
+//         text-align: center;
+//         @include mixin.title-2;
+//     }  
+// }
+// &__cards{
+//     padding-top: 64px;
+//     padding-bottom: 128px;
+//     display: grid;
+//     grid-template-columns: repeat(4, 1fr);
+//     column-gap: 24px;
+//     .share__card{
+//         padding: 48px 32px;
+//         background: #FFF5EB;
+//         &__item{
+//             .text1{
+//                 padding-bottom: 16px;
+//                 font-weight: 700;
+//                 font-size: 12px;
+//                 line-height: 14px;
+//                 letter-spacing: 0.08em;
+//                 text-transform: uppercase;
+//                 background: linear-gradient(109.61deg, #A54E2B -53.83%, #DC9853 62.61%);
+//                 -webkit-background-clip: text;
+//                 -webkit-text-fill-color: transparent;
+//                 background-clip: text;
+//                 -webkit-text-fill-color: transparent;
+//             }
+//             h5{
+//                 padding-bottom: 16px;
+//                 @include mixin.title-5;
+//             }
+//             .text2{
+//                 padding-bottom: 48px;
+//                 font-weight: 400;
+//                 font-size: 16px;
+//                 line-height: 24px;
+//                 color: #161722;
+//                 opacity: 0.78;
+//             }
+//             .text3{
+//                 font-weight: 400;
+//                 font-size: 18px;
+//                 line-height: 21px;
+//                 color: #161722;
+//             }
+//             time{
+//                 font-weight: 400;
+//                 font-size: 16px;
+//                 line-height: 24px;
+//                 color: #161722; 
+//             }
+//         }
+//     }
+// }
+// }
+
+// loader
+// .loader {
+// position: fixed;
+// width: 100vw;
+// height: 100vh;
+// background-color: var.$black;
+// transition: 0.5s;
+// z-index: 10000;
+// }
+
+// .loading{
+// width:100px;
+// height:100px;
+// margin:30px auto;
+// position:fixed;
+// top: 50%;
+// left: 50%;
+// margin-left: -50px;
+// margin-top: -50px;
+// }
+
+// .loading.bar div{
+// width: 100px;
+// height: 30px;
+// background: white;
+// position: absolute;
+// top: 35px;
+// left: 45px;
+// opacity:0.05;
+// -webkit-animation: fadeit 1.1s linear infinite;
+// -moz-animation: fadeit 1.1s linear infinite;
+// animation: fadeit 1.1s linear infinite;
+//   top: 50%;
+// left: 50%;
+// margin-left: -50px;
+// margin-top: -50px;
+// }
+
+// .loading.bar div:nth-child(1){
+// -webkit-transform: rotate(0deg) translate(0, -30px);
+// -moz-transform: rotate(0deg) translate(0, -30px);
+// transform: rotate(0deg) translate(0, -30px); 
+
+// -webkit-animation-delay:0.39s;
+// -moz-animation-delay:0.39s;
+// animation-delay:0.39s;
+// } 
+
+// .loading.bar div:nth-child(2){
+// -webkit-transform: rotate(45deg) translate(0, -30px);
+// -moz-transform: rotate(45deg) translate(0, -30px);
+// transform: rotate(45deg) translate(0, -30px); 
+
+// -webkit-animation-delay:0.52s;
+// -moz-animation-delay:0.52s;
+// animation-delay:0.52s;
+// } 
+
+// .loading.bar div:nth-child(3){
+// -webkit-transform: rotate(90deg) translate(0, -30px);
+// -moz-transform: rotate(90deg) translate(0, -30px);
+// transform: rotate(90deg) translate(0, -30px); 
+
+// -webkit-animation-delay:0.65s;
+// -moz-animation-delay:0.65s;
+// animation-delay:0.65s;
+// } 
+
+// .loading.bar div:nth-child(4){
+// -webkit-transform: rotate(135deg) translate(0, -30px);
+// -moz-transform: rotate(135deg) translate(0, -30px);
+// transform: rotate(135deg) translate(0, -30px); 
+
+// -webkit-animation-delay:0.78s;
+// -moz-animation-delay:0.78s;
+// animation-delay:0.78s;
+// } 
+
+// .loading.bar div:nth-child(5){
+// -webkit-transform: rotate(180deg) translate(0, -30px);
+// -moz-transform: rotate(180deg) translate(0, -30px);
+// transform: rotate(180deg) translate(0, -30px); 
+
+// -webkit-animation-delay:0.91s;
+// -moz-animation-delay:0.91s;
+// animation-delay:0.91s;
+// } 
+
+// .loading.bar div:nth-child(6){
+// -webkit-transform: rotate(225deg) translate(0, -30px);
+// -moz-transform: rotate(225deg) translate(0, -30px);
+// transform: rotate(225deg) translate(0, -30px); 
+
+// -webkit-animation-delay:1.04s;
+// -moz-animation-delay:1.04s;
+// animation-delay:1.04s;
+// } 
+
+// .loading.bar div:nth-child(7){
+// -webkit-transform: rotate(270deg) translate(0, -30px);
+// -moz-transform: rotate(270deg) translate(0, -30px);
+// transform: rotate(270deg) translate(0, -30px); 
+
+// -webkit-animation-delay:1.17s;
+// -moz-animation-delay:1.17s;
+// animation-delay:1.17s;
+// } 
+
+// .loading.bar div:nth-child(8){
+// -webkit-transform: rotate(315deg) translate(0, -30px);
+// -moz-transform: rotate(315deg) translate(0, -30px);
+// transform: rotate(315deg) translate(0, -30px); 
+
+// -webkit-animation-delay:1.3s;
+// -moz-animation-delay:1.3s;
+// animation-delay:1.3s;
+// }
+
+// @-webkit-keyframes fadeit{
+// 0%{
+//      opacity:1;
+// }
+// 100%{
+//      opacity:0;
+// }
+// }
+// @-moz-keyframes fadeit{
+// 0%{
+//      opacity:1;
+// }
+// 100%{
+//      opacity:0;
+// }
+// }
+// @keyframes fadeit{
+// 0%{
+//      opacity:1;
+// }
+// 100%{
+//      opacity:0;
+// }
+// }
+
+////////contact old style///////////
+/// #home {
+// padding-top: 100px;
+// background: url(../../assets/images/contact/bg.png) no-repeat;
+// background-size: cover;
+// }
+
+// .home {
+// padding: 160px 0;
+// p {
+//     font-family: 'Roboto Condensed';
+//     font-style: normal;
+//     margin-bottom: 16px;
+//     font-weight: 400;
+//     font-size: 16px;
+//     line-height: 19px;      
+//     text-transform: uppercase;
+//     color: #FFD2A4;        
+// }
+
+// h1 {
+//     max-width: 409px;
+//     font-family: 'Roboto Condensed';
+//     font-style: normal;
+//     font-weight: 700;
+//     font-size: 48px;
+//     line-height: 64px;
+//     letter-spacing: -0.01em;
+//     text-transform: uppercase;
+//     color: #FFFFFF;
+// }
+// }
+
+// #contact {
+// background: #E5E5E5;
+// }
+
+// .contact {
+// padding: 128px 0;
+// display: flex;
+// align-items: center;
+// gap: 128px;
+// & > div {
+//     width: 50%;
+// }
+// &-left {
+//     h2 {
+//         font-family: 'Roboto Condensed';
+//         font-style: normal;
+//         margin-bottom: 32px;
+//         font-weight: 700;
+//         font-size: 24px;
+//         line-height: 28px;
+//         letter-spacing: -0.01em;
+//         text-transform: uppercase;
+//         color: #1E1B1B;
+//     }
+
+//     input {
+//         padding: 20px;
+//         width: 100%;
+//         margin-bottom: 12px;
+//         border: none;
+//         outline: none;
+//         background: #FFFFFF;
+//         border-radius: 4px;
+//     }
+
+//     textarea {
+//         padding: 20px;
+//         width: 100%;
+//         height: 120px;
+//         margin-bottom: 12px;
+//         resize: none;
+//         border: none;
+//         outline: none;
+//         background: #FFFFFF;
+//         border-radius: 4px;
+//     }
+//     button {
+//         @include mixin.primary-btn;
+//         width: 100%;
+
+//         &::placeholder {
+//             font-family: 'Roboto Condensed';
+//             font-style: normal;
+//             font-weight: 400;
+//             font-size: 16px;
+//             line-height: 24px;
+//             color: #161722;
+//         }
+//     }
+// }
+
+// &-right {
+//     p {
+//         margin-bottom: 8px;
+//         font-family: 'Roboto Condensed';
+//         font-style: normal;
+//         font-weight: 400;
+//         font-size: 18px;
+//         line-height: 21px;
+//         color: #1E1B1B;
+//         opacity: 0.7;
+//     }
+
+//     h1 {
+//         max-width: 242px;
+//         margin-bottom: 32px;
+//         font-family: 'Roboto Condensed';
+//         font-style: normal;
+//         font-weight: 700;
+//         font-size: 24px;
+//         line-height: 28px;
+//         letter-spacing: -0.01em;
+//         text-transform: uppercase;
+//         color: #161722;            
+//     }
+//     h2 {
+//         i {
+//             margin-top: 8px;
+//             margin-right: 32px;
+//         }
+//     }
+
+// }
+// }
+
+// loader
+// .loader {
+//     position: fixed;
+//     width: 100vw;
+//     height: 100vh;
+//     background-color: var.$black;
+//     transition: 0.5s;
+//     z-index: 10000;
+// }
+
+// .loading{
+//     width:100px;
+//     height:100px;
+//     margin:30px auto;
+//     position:fixed;
+//     top: 50%;
+//     left: 50%;
+//     margin-left: -50px;
+//     margin-top: -50px;
+// }
+
+// .loading.bar div{
+//     width: 100px;
+//     height: 30px;
+//     background: white;
+//     position: absolute;
+//     top: 35px;
+//     left: 45px;
+//     opacity:0.05;
+//     -webkit-animation: fadeit 1.1s linear infinite;
+//     -moz-animation: fadeit 1.1s linear infinite;
+//     animation: fadeit 1.1s linear infinite;
+//       top: 50%;
+//     left: 50%;
+//     margin-left: -50px;
+//     margin-top: -50px;
+// }
+
+// .loading.bar div:nth-child(1){
+//     -webkit-transform: rotate(0deg) translate(0, -30px);
+//     -moz-transform: rotate(0deg) translate(0, -30px);
+//     transform: rotate(0deg) translate(0, -30px); 
+
+//     -webkit-animation-delay:0.39s;
+//     -moz-animation-delay:0.39s;
+//     animation-delay:0.39s;
+// } 
+
+// .loading.bar div:nth-child(2){
+//     -webkit-transform: rotate(45deg) translate(0, -30px);
+//     -moz-transform: rotate(45deg) translate(0, -30px);
+//     transform: rotate(45deg) translate(0, -30px); 
+
+//     -webkit-animation-delay:0.52s;
+//     -moz-animation-delay:0.52s;
+//     animation-delay:0.52s;
+// } 
+
+// .loading.bar div:nth-child(3){
+//     -webkit-transform: rotate(90deg) translate(0, -30px);
+//     -moz-transform: rotate(90deg) translate(0, -30px);
+//     transform: rotate(90deg) translate(0, -30px); 
+
+//     -webkit-animation-delay:0.65s;
+//     -moz-animation-delay:0.65s;
+//     animation-delay:0.65s;
+// } 
+
+// .loading.bar div:nth-child(4){
+//     -webkit-transform: rotate(135deg) translate(0, -30px);
+//     -moz-transform: rotate(135deg) translate(0, -30px);
+//     transform: rotate(135deg) translate(0, -30px); 
+
+//     -webkit-animation-delay:0.78s;
+//     -moz-animation-delay:0.78s;
+//     animation-delay:0.78s;
+// } 
+
+// .loading.bar div:nth-child(5){
+//     -webkit-transform: rotate(180deg) translate(0, -30px);
+//     -moz-transform: rotate(180deg) translate(0, -30px);
+//     transform: rotate(180deg) translate(0, -30px); 
+
+//     -webkit-animation-delay:0.91s;
+//     -moz-animation-delay:0.91s;
+//     animation-delay:0.91s;
+// } 
+
+// .loading.bar div:nth-child(6){
+//     -webkit-transform: rotate(225deg) translate(0, -30px);
+//     -moz-transform: rotate(225deg) translate(0, -30px);
+//     transform: rotate(225deg) translate(0, -30px); 
+
+//     -webkit-animation-delay:1.04s;
+//     -moz-animation-delay:1.04s;
+//     animation-delay:1.04s;
+// } 
+
+// .loading.bar div:nth-child(7){
+//     -webkit-transform: rotate(270deg) translate(0, -30px);
+//     -moz-transform: rotate(270deg) translate(0, -30px);
+//     transform: rotate(270deg) translate(0, -30px); 
+
+//     -webkit-animation-delay:1.17s;
+//     -moz-animation-delay:1.17s;
+//     animation-delay:1.17s;
+// } 
+
+// .loading.bar div:nth-child(8){
+//     -webkit-transform: rotate(315deg) translate(0, -30px);
+//     -moz-transform: rotate(315deg) translate(0, -30px);
+//     transform: rotate(315deg) translate(0, -30px); 
+
+//     -webkit-animation-delay:1.3s;
+//     -moz-animation-delay:1.3s;
+//     animation-delay:1.3s;
+// }
+
+// @-webkit-keyframes fadeit{
+//     0%{
+//          opacity:1;
+//     }
+//     100%{
+//          opacity:0;
+//     }
+// }
+// @-moz-keyframes fadeit{
+//     0%{
+//          opacity:1;
+//     }
+//     100%{
+//          opacity:0;
+//     }
+// }
+// @keyframes fadeit{
+//     0%{
+//          opacity:1;
+//     }
+//     100%{
+//          opacity:0;
+//     }
+// }
+
+
+// @media (max-width: 800px) {
+// .contact {
+//     flex-direction: column;
+//     & > div {
+//         width: 100%;
+//     }
+//     &-right {
+//         text-align: center;
+        
+//         p,h1 {
+//             max-width: 100%;
+//         }
+
+//         h2 {
+//             i {
+//                 margin: 8px 10px 0;
+//             }
+//         }
+//     }
+// }
+
+
+// }
+
+///////contact end /////
+///////////home old style end////////
+
+
+// EaTurkish codes nav///
+
+// <!-- <nav>
+// <div class="container navbar">
+//   <div class="navbar_left">
+//    <a href="./index.html"><img src="./assets/images/header-footer/Logo.svg" alt="" /></a>
+//   </div>
+//   <div class="navbar_right" id="navbar-responsive">
+//     <ul>
+//       <li class="nav-item"><a href="./index.html">Menu</a></li>
+//       <li class="nav-item"><a href="./news.html">News</a></li>
+//       <li class="nav-item"><a href="./about.html">About Us</a></li>
+//       <li class="nav-item"><a href="./contact-us.html">Contact Us</a></li>
+//       <a class="login" href="#">Log in</a>
+//       <button class="close" id="navbar-close">
+//         <img src="assets/images/header-footer/close.svg" alt="" />
+//       </button>
+//     </ul>
+
+//     <button class="hamburger" id="navbar-open">
+//       <img src="assets/images/header-footer/burger.svg" alt="" />
+//     </button>
+//   </div>
+// </div>
+// </nav> -->
+
+/// its style ///
+/// 
+/// // nav {
+//   width: 100%;
+//   // height: 100px;
+//   background: #BB2339;
+//   position: fixed;
+//   z-index: 1;
+//    .navbar {
+//     display: flex;
+//     justify-content: space-between;
+//     .navbar_left {
+//       margin-top: 20px;
+//             display: flex;
+//       align-items: center;
+//     }
+//     .navbar_right {
+//       display: flex;
+//       justify-content: space-between;
+//       gap: 40px;
+//       ul {
+//         display: flex;
+//         justify-content: space-between;
+//         gap: 40px;
+//         padding-top: 39px;
+//         a {
+//           font-family: 'Open Sans';
+// font-style: normal;
+// font-weight: 400;
+// font-size: 16px;
+// line-height: 22px;
+// letter-spacing: 0.04em;
+// color: #FFFFFF;
+//         }
+
+//         .login {
+//           @include mixin.primary-btn;
+//           @include mixin.btn;
+//           margin-top: -15px;
+//           width: 140px;
+//           height: 50px;
+//           font-family: 'Open Sans';
+//   font-style: normal;
+//   text-align: center;
+//   font-weight: 600;
+//   font-size: 14px;
+//   line-height: 175%;
+//         }
+//       }
+//     }
+//    }
+// }
+
+
+// .close {
+//   display: none;
+//   position: absolute;
+//   top: 30px;
+//   right: 20px;
+//   background-color: transparent;
+//   border: none;
+//   border-radius: none;
+// }
+// .close img {
+//   width: 32px;
+// }
+
+// .hamburger {
+//   display: none;
+//   margin-top: -3px;
+//   text-align: end;
+//   border: none;
+//   background-color: transparent;
+// }
+// .hamburger img {
+//   width: 32px;
+// }
+
+
+// @media (max-width:1200px) {
+//   .navbar-responsive {
+//     display: none;
+//   }
+
+//   .hamburger, .close {
+//     display: block;
+//   }
+// }
+
+///end///    
+
+///Popular Dishes cards///
+// <!-- card  -->
+// <!-- <div class="carousel-item">
+//             <div class="card" style="width: 18rem">
+//               <img
+//                 src="./assets/images/index/kebab-1.svg"
+//                 class="card-img-top"
+//                 alt="..."
+//               />
+//               <div class="card-body">
+//                 <h5 class="card-title">
+//                   Barbecue Shish kebab Shashlik Skewer
+//                 </h5>
+//                 <img src="./assets/images/index/star-group 134.svg" alt="" />
+//                 <span>$12.00</span>
+//               </div>
+//             </div>
+//           </div>
+//           <div class="carousel-item">
+//             <div class="card" style="width: 18rem">
+//               <img
+//                 src="./assets/images/index/kebab-1.svg"
+//                 class="card-img-top"
+//                 alt="..."
+//               />
+//               <div class="card-body">
+//                 <h5 class="card-title">
+//                   Barbecue Shish kebab Shashlik Skewer
+//                 </h5>
+//                 <img src="./assets/images/index/star-group 134.svg" alt="" />
+//                 <span>$12.00</span>
+//               </div>
+//             </div>
+//           </div> -->
+// <!-- card end  -->
+
+
+////////OWL_CAROUSEL///////
+
+///       <section id="carousel">
+// <div class="container carousel">
+// <div class="owl-carousel owl-theme owl-loaded owl-drag">
+//   <div class="owl-stage-outer">
+    // <div class="owl-stage"
+    //   style="transform: translate3d (-5267px, 0px, 0px); 
+      /* transition:all 0.25s ease0s; width: 7896px; ;"
+    >
+      <div class="owl-item cloned"
+        style="width: 309px; margin-right: 20px"
+      >
+        <div class="item">
+          <img
+            src="./assets/images/index/kebab-1.svg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">
+              Barbecue Shish kebab Shashlik Skewer
+            </h5>
+            <img
+              src="./assets/images/index/star-group 134.svg"
+              alt=""
+            />
+            <span>$12.00</span>
+          </div>
+        </div>
+      </div>
+      <div class="owl-item cloned"
+        style="width: 309px; margin-right: 20px"
+      >
+        <div class="item">
+          <img
+            src="./assets/images/index/kebab-1.svg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">
+              Barbecue Shish kebab Shashlik Skewer
+            </h5>
+            <img
+              src="./assets/images/index/star-group 134.svg"
+              alt=""
+            />
+            <span>$12.00</span>
+          </div>
+        </div>
+      </div>
+      <div class="owl-item cloned"
+        style="width: 309px; margin-right: 20px"
+      >
+        <div class="item">
+          <img
+            src="./assets/images/index/kebab-1.svg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">
+              Barbecue Shish kebab Shashlik Skewer
+            </h5>
+            <img
+              src="./assets/images/index/star-group 134.svg"
+              alt=""
+            />
+            <span>$12.00</span>
+          </div>
+        </div>
+      </div>
+      <div class="owl-item cloned"
+        style="width: 309px; margin-right: 20px"
+      >
+        <div class="item">
+          <img
+            src="./assets/images/index/kebab-1.svg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">
+              Barbecue Shish kebab Shashlik Skewer
+            </h5>
+            <img
+              src="./assets/images/index/star-group 134.svg"
+              alt=""
+            />
+            <span>$12.00</span>
+          </div>
+        </div>
+      </div>
+      <div class="owl-item active"
+        style="width: 309px; margin-right: 20px"
+      >
+        <div class="item">
+          <img
+            src="./assets/images/index/kebab-1.svg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">
+              Barbecue Shish kebab Shashlik Skewer
+            </h5>
+            <img
+              src="./assets/images/index/star-group 134.svg"
+              alt=""
+            />
+            <span>$12.00</span>
+          </div>
+        </div>
+      </div>
+      <div class="owl-item active"
+        style="width: 309px; margin-right: 20px"
+      >
+        <div class="item">
+          <img
+            src="./assets/images/index/kebab-1.svg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">
+              Barbecue Shish kebab Shashlik Skewer
+            </h5>
+            <img
+              src="./assets/images/index/star-group 134.svg"
+              alt=""
+            />
+            <span>$12.00</span>
+          </div>
+        </div>
+      </div>
+      <div class="owl-item active"
+        style="width: 309px; margin-right: 20px"
+      >
+        <div class="item">
+          <img
+            src="./assets/images/index/kebab-1.svg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">
+              Barbecue Shish kebab Shashlik Skewer
+            </h5>
+            <img
+              src="./assets/images/index/star-group 134.svg"
+              alt=""
+            />
+            <span>$12.00</span>
+          </div>
+        </div>
+      </div>
+      <div  class="owl-item active"
+        style="width: 309px; margin-right: 20px"
+      >
+        <div class="item">
+          <img
+            src="./assets/images/index/kebab-1.svg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">
+              Barbecue Shish kebab Shashlik Skewer
+            </h5>
+            <img
+              src="./assets/images/index/star-group 134.svg"
+              alt=""
+            />
+            <span>$12.00</span>
+          </div>
+        </div>
+      </div>
+      <div class="owl-item cloned"
+        style="width: 309px; margin-right: 20px"
+      >
+        <div class="item">
+          <img
+            src="./assets/images/index/kebab-1.svg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">
+              Barbecue Shish kebab Shashlik Skewer
+            </h5>
+            <img
+              src="./assets/images/index/star-group 134.svg"
+              alt=""
+            />
+            <span>$12.00</span>
+          </div>
+        </div>
+      </div>
+      <div class="owl-item cloned"
+        style="width: 309px; margin-right: 20px"
+      >
+        <div class="item">
+          <img
+            src="./assets/images/index/kebab-1.svg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">
+              Barbecue Shish kebab Shashlik Skewer
+            </h5>
+            <img
+              src="./assets/images/index/star-group 134.svg"
+              alt=""
+            />
+            <span>$12.00</span>
+          </div>
+        </div>
+      </div>
+      <div class="owl-item cloned"
+      style="width: 309px; margin-right: 20px"
+    >
+      <div class="item">
+        <img
+          src="./assets/images/index/kebab-1.svg"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">
+            Barbecue Shish kebab Shashlik Skewer
+          </h5>
+          <img
+            src="./assets/images/index/star-group 134.svg"
+            alt=""
+          />
+          <span>$12.00</span>
+        </div>
+      </div>
+    </div>
+    <div class="owl-item cloned"
+    style="width: 309px; margin-right: 20px"
+  >
+    <div class="item">
+      <img
+        src="./assets/images/index/kebab-1.svg"
+        class="card-img-top"
+        alt="..."
+      />
+      <div class="card-body">
+        <h5 class="card-title">
+          Barbecue Shish kebab Shashlik Skewer
+        </h5>
+        <img
+          src="./assets/images/index/star-group 134.svg"
+          alt=""
+        />
+        <span>$12.00</span>
+      </div>
+    </div>
+  </div>
+    </div>
+  </div>
+  <div class="owl-nav">
+    <button role="presentation" class="owl-prev" type="button">
+      <span aria-label="Previous">‹</span>
+    </button>
+    <button role="presentation"
+      class="owl-next"
+      type="button"
+      data-bs-target="#carouselExample"
+      data-bs-slide="next"
+    >
+      <span aria-label="Next">›</span>
+    </button>
+  </div>
+  <div class="owl-dots">
+    <div class="owl-dot active"><span></span></div>
+    <div class="owl-dot"><span></span></div>
+    <div class="owl-dot"><span></span></div>
+  </div>
+</div>
+</div>
+</section>
+
+/////CSS OWL_CAROUSEL////
+/// ///////misol////////
+
+#carousel {
+    margin-top: 120px;
+    background-color: #F8F8F8;
+}
+.carousel {
+    display: flex;
+    justify-content: center;
+    // overflow: hidden;
+    .owl-carousel {
+        width: 100%;
+    z-index: 1;
+        flex-direction: row;
+flex-wrap: nowrap;
+align-content: normal;
+justify-content: normal;
+align-items: normal;
+        .owl-stage-outer {
+            position: relative;
+            overflow: hidden;
+            --webkit-transform: translate3d(0,0,0);
+            .owl-stage {
+                display: flex;
+                justify-content: center;
+                gap: 20px;
+                // display: flex;
+                // margin-left: auto;
+                // margin-right: auto;
+                overflow: hidden;
+                // position: relative;
+                -ms-touch-action: pan-Y;
+                touch-action: manipulation;
+                --moz-backface-visibility: hidden;
+                .owl-item {
+                    -ms-touch-action: pan-y;
+                    touch-action: pan-y;
+                    -webkit-user-select: none;
+                    -moz-user-select: none;
+                    -ms-user-select: none;
+                    user-select: none;
+                }
+            }
+        }
+
+        .owl-nav {
+            position: relative;
+            top: -250px;
+            display: flex;
+            justify-content: end;
+            gap: 10px;
+            button {
+                width: 20px;
+                height: 20px;
+       span {
+   
+       }
+            }
+        }
+    }
+}
+
+///////misol////////
+
+
+       .ap-tab-link {
+           margin-right: auto;
+            padding: 10px 20px;
+            // border: 1px solid #BB2339;
+            border-radius: 25px;
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 17px;
+            line-height: 175%;
+            letter-spacing: 0.05em;
+            text-transform: capitalize;
+            color: #242424;
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+    }
+
+        button {
+                display: inline-block;
+                width: 200px;
+                height: 50px;
+                border: 2px solid #BB2339;
+                border-radius: 50px;
+                background-color: transparent;
+            }

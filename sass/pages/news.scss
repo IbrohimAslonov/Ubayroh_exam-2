@@ -1,0 +1,177 @@
+@use '../global';
+
+header {
+    nav {
+        margin-top: 100px;
+        padding-top: 70px;
+        background-color: transparent;
+        position: relative;
+        .breadcrumb {
+       
+            .breadcrumb-item {
+             a {
+                font-family: 'Open Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 19px;
+                letter-spacing: 0.03em;
+                text-transform: capitalize;
+                font-feature-settings: 'tnum' on, 'lnum' on;
+                color: #B0B0B0;  
+            }
+        }
+        .breadcrumb-menu {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 19px;
+            letter-spacing: 0.03em;
+            text-transform: capitalize;
+            font-feature-settings: 'tnum' on, 'lnum' on;
+            color: #BB2339;  
+        }
+
+        }
+       
+    }
+}
+
+.news {
+    h2 {
+        width: 169px;
+        height: 83px;
+        padding-left: 600px;
+        position: relative;
+        font-family: 'CeraRound';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 64px;
+        line-height: 130%;
+        text-align: right;
+        letter-spacing: 0.03em;
+        text-transform: capitalize;
+        font-feature-settings: 'tnum' on, 'lnum' on;
+        color: #242424;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    .spoon {
+        display: inline-block;
+        padding-top: -10px;
+        padding-left: 670px;
+        position: relative;
+    }
+}
+
+.news {
+    margin-top: 120px;
+    
+.new-cards-row {
+display: flex;
+.news-card {
+
+        .card {
+            &:hover {
+                border: 2px solid transparent;
+                background-color: white;
+                border: 2px solid gray;
+                color: #BB2339; 
+                transform: scale(1.05);
+            }  
+            width:410px;
+            height:584px;
+            border-radius: 15px 15px 15px;
+            margin-top: 60px;    position: relative;
+        img {
+            display: inline-block;
+    
+}
+    .card-body {
+        margin-top: 350px;
+        position: absolute;
+        h5 {
+            width: 332px;
+            height: 64px;
+        font-family: 'CeraRound';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 32px;
+        text-transform: capitalize;
+        font-feature-settings: 'tnum' on, 'lnum' on;
+        color: #242424;
+        }
+
+        p {
+            width: 361px;
+            height: 72px;
+            font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #AAAAAA;
+        }
+
+    }
+    .link {
+        margin-top: 200px;
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: center;
+        gap: 205px;
+        a {
+            display: inline-block;
+            font-family: 'CeraRound';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.04em;
+    color: #BB2339;
+        }
+
+        time {
+            font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #242424;
+    opacity: 0.5;
+        }
+    }
+        }
+}
+}
+
+.view {
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    padding: 10px 30px;
+    margin-left: 600px;
+    margin-top: 78px;
+    border: 2px solid #BB2339;
+    border-radius: 50px;
+
+    font-family: 'CeraRound';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 175%;
+    letter-spacing: 0.04em;
+    color: #242424;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    &:hover {
+        border: 2px solid transparent;
+        background-color: #BB2339;
+        color: white; 
+    }  
+}
+}
